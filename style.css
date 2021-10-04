@@ -1,0 +1,216 @@
+/*Tudo o site*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*Corpo do site*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4D3F1;
+}
+
+/*Topo do site*/
+header{
+    background-image: url(./img/IMG_20210923_180533_225.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height:600px;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90%;
+}
+nav h1{
+    font-size:xx-large;
+    color: #0F0CAC;
+}
+nav h3{
+    font-size: x-large;
+    color:#0F0CAC;
+    padding-bottom: 2%;
+}
+nav button{
+    width: 8%;
+    height: 5%;
+    border: none;
+    border-radius: 20px;
+    background-color: #0F0CAC;
+    color: white;
+    font-size:larger;
+    cursor: pointer;
+}
+
+/*Sessao categoria*/
+#categoria{
+    display: flex;
+    margin: 5%;
+}
+.cards{
+    text-align: center;
+    margin: 0% 4% 0% 4%;
+}
+.cards img{
+    width: 30%;
+}
+.cards h5{
+    font-size: large;
+    padding-bottom: 5%;
+    color: #0F0CAC;
+}
+.cards p{
+    font-size:small;
+    color: #0F0CAC;
+    padding-bottom: 10%;
+    text-align: center;
+}
+.cards button{
+    background: #F4D3F1;
+    width: 173px;
+    height: 48px;
+    mix-blend-mode: normal;
+    border: 4px solid #0F0CAC;
+    border-radius: 23px;
+    padding: 1% 3% 1% 3%;
+    color: #0F0CAC;
+    font-size:large;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+/*sessao produtos em destaque*/
+.topo{
+    text-align: center;
+}
+.topo h1{
+    font-size:xx-large;
+    color: #0F0CAC;
+}
+.topo p{
+    font-size:small;
+    color: #0F0CAC;
+    padding: 1% 20% 1% 20%;
+}
+.foto{
+    display: flex;
+    margin: 2%;
+    gap: 1rem;
+}
+.foto img{
+    width: 33%;
+}
+
+/*sessao dicas*/
+#dicas{
+    text-align: center;
+}
+#dicas h1{
+    font-size:xx-large;
+    color: #0F0CAC;
+    margin-bottom: 2%;
+}
+.tudo{
+    display: flex;
+    margin-bottom: 5%;
+    gap: 1rem;
+}
+.texto, .texto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.texto p, .texto1 p{
+    border: solid 1px black;
+    padding: 5%;
+    height: 100%;
+    border-radius: 10px;
+    font-size:small;
+}
+.centro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.texto{
+    margin-left: 5%;
+}
+.texto1{
+    margin-right: 5%;
+}
+
+/*ssessao mais vendidos*/
+.cards-mais-vendidos{
+    display: flex;
+}
+.blocos{
+    text-align: center;
+    margin: 0% 4% 0% 4%;
+}
+.blocos img{
+    width: 100%;
+    height: 55%;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+.blocos p{
+    font-size:small;
+    color: #0F0CAC;
+    padding-bottom: 10%;
+    text-align: center;
+}
+.blocos button{
+    background: #0F0CAC;
+    width: 173px;
+    height: 48px;
+    mix-blend-mode: normal;
+    padding: 1% 3% 1% 3%;
+    color: white;
+    font-size:large;
+    font-weight:bold;
+    border:none;
+    cursor: pointer;
+}
+
+/*Rodapé*/
+#rodapé{
+    background-color: #DE7CD5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+.social img{
+    width: 100px;
+    height: 100px;
+}
+.social, .paginas-rodapé{
+    display: flex;
+    margin-bottom: 2%;
+    gap: 2rem;
+}
+.linha-vertical {
+  height: 40px;/*Altura da linha*/
+  border-left: 3px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+.paginas-rodapé a, .contato a{
+    text-decoration: none;/*Removendo o sublinhado*/
+}
+.paginas-rodapé h1, .contato h1{
+    font-size:xx-large;
+    color:black;
+    margin-bottom: 2%;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
